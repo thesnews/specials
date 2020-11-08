@@ -1,5 +1,5 @@
 # stop-the-steal
-HEADLINE HEADLINE | The State News
+Photos: 'Stop the Steal' rally brings hundreds to Capitol | The State News
 <br>
 Nov. 8, 2020
 
