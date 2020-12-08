@@ -1,12 +1,5 @@
 /* CSS Document for women in the workplace story Dec. 8, 2020 */
 
-@charset "UTF-8";
-@font-face {
-	font-family: interstate;
-	src: url("InterBlaCon");
-}
-
-
 /* General format */
 body {
 	margin: 0em;
@@ -94,7 +87,7 @@ aside {
 }
 
 .headline {
-	font-family: interstate;
+	font-family: 'Playfair Display', serif;
 	color: #61405a;
 	text-align: center;
 	font-size: 4em;
@@ -132,7 +125,7 @@ aside {
 /* Main body formatting */
 
 .dropcap:first-letter {
-	font-family: 'interstate';
+	font-family: 'Playfair Display', serif;
 	font-size: 6em;
 	font-weight: 600;
 	float: left;
@@ -150,7 +143,7 @@ aside {
 /* Pull quote formatting */
 .pull-quote {
 	font-size: 2em;
-	font-family: 'interstate';
+	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 	color: #916086;
 	line-height: 1em;
@@ -159,7 +152,7 @@ aside {
 
 .pull-quote-credit {
 	text-align: right;
-	font-family: 'interstate';
+	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 	margin-bottom: 2em;
 }
@@ -187,7 +180,7 @@ aside {
 }
 
 .print-title {
-	font-family: 'interstate';
+	font-family: 'Playfair Display', serif;
 	font-size: 1.75em;
 	font-weight: 700;
 	margin: 0em 0em .5em 0em;
@@ -249,7 +242,7 @@ button:hover {
 }
 
 .glossary-title {
-	font-family: 'interstate';
+	font-family: 'Playfair Display', serif;
 	font-size: 1.25em;
 	font-weight: 700;
 	text-transform: uppercase;
