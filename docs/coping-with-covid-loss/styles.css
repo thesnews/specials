@@ -590,7 +590,8 @@ h3 {
 	}
 	
 	.diptych-flexbox-img {
-		height: 150px;
+		width: 80%;
+		height: auto;
 	}
 	
 	.read-more-container {
