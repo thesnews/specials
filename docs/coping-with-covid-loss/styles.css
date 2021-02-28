@@ -589,6 +589,10 @@ h3 {
 		flex-direction: column;
 	}
 	
+	.diptych-flexbox-img {
+		height: 150px;
+	}
+	
 	.read-more-container {
 		margin-right: 4em;
 		margin-left: 4em;
