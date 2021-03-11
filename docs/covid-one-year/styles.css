@@ -84,24 +84,9 @@ a:hover {
 	opacity: 70%;
 }
 
-.parallax {
-	background-image: url(https://snworksceo.imgix.net/tsn/e63b6af9-6890-46f2-b883-85858b72ecbe.sized-1000x1000.jpg?);
-/*
-	height: 800px;
-	background-color: #916086;
-	background-attachment: fixed;
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;*/
-}
-
 .slideshow-img {
 	width: 100%;
-	max-height: 800px;
+	height: 800px;
 	object-fit: cover;
 }
 
@@ -146,62 +131,14 @@ a:hover {
 	font-size: 17px;
 }
 
-/* Pull quote formatting */
-.pull-quote {
-	color: #97999B;
-	font-size: 2.5em;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
-	line-height: 1em;
-	margin: 1.5em .5em 0em .5em;
-}
-
-.pull-quote-credit {
-	color: #97999B;
-	text-align: right;
-	font-family: 'Lora', serif;
-	font-weight: 600;
-	margin: 1em 2em 4em 0em;
-}
-
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* Keyframes */
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-
 /* Single photo formatting */
 
 .center-photo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 4em;
-	margin-bottom: 4em;
+	margin-top: 8em;
+	margin-bottom: 8em;
 	width: 70%;
 }
 
@@ -217,58 +154,15 @@ a:hover {
 }
 
 
-/* Headshot photo formatting */
-.headshot-right {
-	float: right;
-	width: 300px;
-	margin: 1em;
+/* Vertical photo formatting */
+.vertical-photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8em;
+	margin-bottom: 8em;
+	width: 35%;
 }
-
-.headshot-left {
-	float: left;
-	width: 300px;
-	margin: 1em;
-}
-
-.headshot-credit {
-	font-style: italic;
-	font-size: .65em;
-	color: #6F6F6F;
-	text-align: right;
-	margin: .5em 0em .5em .5em;
-}
-
-/* Diptych photo formatting */
-
-.diptych {
-	margin: 4em 0em;
-}
-
-.diptych-flexbox {
-	display: flex;
-	justify-content: center;
-}
-
-.diptych-flexbox-img {
-	width: auto;
-	height: 400px;
-	margin: 1em;
-}
-
-.diptych-caption {
-	font-size: .8em;
-	text-align: center;
-	line-height: 1.25em;
-}
-
-.diptych-credit {
-	font-style: italic;
-	font-size: .65em;
-	color: #6F6F6F;
-	text-align: center;
-	margin: .5em 0em .5em .5em;
-}
-
 
 /* Footnotes formatting */
 .footnotes {
@@ -286,7 +180,7 @@ a:hover {
 
 /* Footer formatting */
 footer {
-	background-color: #ECECEC;
+	background-color: #1D1D1D;
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.8em;
 	text-align: center;
@@ -295,130 +189,28 @@ footer {
 }
 
 
-/* Read more formatting */
-.read-more-container {
-	background-color: #ECECEC;
-	margin: 4em 15em;
-}
-
-.stories-container {
-	display: flex;
-	justify-content: center;
-}
-
-h3 {
-	font-family: 'Roboto', sans-serif;
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 1.25em;
-	padding: 1em 1em 0em 1em;
-}
-
-.story-one {
-	border: 1px solid #C5C5C5;
-	margin: 0em 0em 1em 1em;
-	max-width: 15em;
-}
-
-.story-two {
-	border: 1px solid #C5C5C5;
-	margin: 0em 0em 1em 1em;
-	max-width: 15em;
-}
-
-.story-three {
-	border: 1px solid #C5C5C5;
-	margin: 0em 1em 1em 1em;
-	max-width: 15em;
-}
-
-.p-read-more {
-	margin: 1em;
-}
-
-.story-section {
-	font-family: 'Roboto', sans-serif;
-	color: #216334;
-	font-weight: 600;
-	font-size: .7em;
-}
-
-.story-headline {
-	font-weight: 600;
-	font-size: 1.1em;
-	line-height: 1em;
-}
-
-.story-byline {
-	font-family: 'Roboto', sans-serif;
-	color: #767575;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: .7em;
-}
-
-
-
-
 
 
 
 /* Media queries */
 
-@media screen and (max-width: 1400px) {
-	
-	.byline {
-		margin-right: 34em;
-		margin-left: 34em;
-	}
-}
-
 @media screen and (max-width: 1200px) {
-	
-	.byline {
-		margin-right: 25em;
-		margin-left: 25em;
-	}
 	
 	.body-text {
 		margin-right: 18em;
 		margin-left: 18em;
 	}
-	
-	.diptych-flexbox-img {
-		height: 350px;
-	}
-
-	.read-more-container {
-		margin-right: 12em;
-		margin-left: 12em;
-	}
 }
 
 @media screen and (max-width: 1030px) {
 	
-	
-	.subhead {
-		margin-right: 10em;
-		margin-left: 10em;
+	.one-year {
+		font-size: 10em;
 	}
 	
 	.body-text {
 		margin-right: 14em;
 		margin-left: 14em;
-	}
-	
-	.pull-quote {
-		font-size: 2.25em;
-	}
-	
-	.diptych-flexbox-img {
-		height: 300px;
-	}
-	
-	.read-more-container {
-		margin-right: 8em;
-		margin-left: 8em;
 	}
 	
 	footer {
@@ -428,39 +220,17 @@ h3 {
 
 }
 
-/* Media query for 1000px */
-@media screen and (max-width: 1000px) {
-	
-	.byline {
-		margin-right: 22em;
-		margin-left: 22em;
-	}
-}
-
 /* Media query for 768px, tablet size */
 @media screen and (max-width: 768px) {
-
-	.parallax {
+	
+	.slideshow-img {
+		width: 100%;
 		height: 1025px;
+		object-fit: cover;
 	}
 	
-	.headline {
-		margin-right: .75em;
-		margin-left: .75em;
-	}
-	
-	.subhead {
-		margin-right: 6em;
-		margin-left: 6em;
-	}
-
-	.byline {
-		margin-right: 15em;
-		margin-left: 15em;
-	}
-	
-	.lede {
-		font-size: 4em;	
+	.one-year {
+		font-size: 10em;
 	}
 	
 	.body-text {
@@ -472,51 +242,13 @@ h3 {
 		width: 75%;
 	}
 	
+	.vertical-photo {
+		width: 75%;
+	}
+	
 	.text-center-photo {
-		font-size: .7em;
+		font-size: .9em;
 	}
-	
-	.headshot-left {
-		width: 250px;
-	}
-	
-	.headshot-right {
-		width: 250px;
-	}
-	
-	.diptych-flexbox-img {
-		height: 200px;
-	}
-		
-	.diptych-caption {
-		font-size: .7em;
-	}
-	
-	.pull-quote {
-		font-size: 2em;
-		margin-left: .75em;
-	}
-	
-	.read-more-container {
-		margin-right: 3em;
-		margin-left: 3em;
-	}
-	
-	.h3 {
-		font-size: 1em;
-	}
-	
-	.story-section {
-		font-size: .6em;
-	}
-	
-	.story-byline {
-		font-size: .6em;
-	}
-	
-	.p-read-more {
-		margin: .5em;
-	}	
 	
 	footer {
 		padding-right: 8em;
@@ -527,8 +259,8 @@ h3 {
 /* Media query for 576px, start of mobile size */
 @media screen and (max-width: 576px) {
 	
-	.parallax {
-		height: 1100px;
+	.one-year {
+		font-size: 8em;
 	}
 	
 	.headline {
@@ -538,20 +270,9 @@ h3 {
 		line-height: 1.1em;
 	}
 	
-	.subhead {
-		margin-right: 4em;
-		margin-left: 4em;
-	}
-	
 	.byline {
-		font-size: 18px;
-		margin-right: 3em;
-		margin-left: 3em;
-	}
-	
-	.lede {
-		font-size: 3.5em;
-		margin: .35em;
+		margin-right: 1em;
+		margin-left: 1em;
 	}
 	
 	.body-text {
@@ -564,61 +285,9 @@ h3 {
 		width: 90%;
 	}
 	
-	.diptych-flexbox {
-		flex-direction: column;
+	.vertical-photo {
+		width: 90%;
 	}
-	
-	.diptych-flexbox-img {
-		width: 80%;
-		height: auto;
-	}
-	
-	.read-more-container {
-		margin-right: 4em;
-		margin-left: 4em;
-		align-items: center;
-	}
-	
-	.stories-container {
-		flex-direction: column;
-		align-items: center;
-		margin: 1em;
-	}
-	
-	h3 {
-		font-size: 1.5em;
-	}
-	
-	.story-one {
-		margin: 0em 0em 0em 0em;
-		max-width: 22em;
-	}
-	
-	.story-two {
-		margin: 1em 0em 0em 0em;
-		max-width: 22em;
-	}
-	
-	.story-three {
-		margin: 1em 0em 1em 0em;
-		max-width: 22em;
-	}
-	
-	.p-read-more {
-		margin: .75em;
-	}
-	
-	.story-section {
-		font-size: 1em;
-	}
-	
-	.story-headline {
-		font-size: 1.5em;
-	}
-	
-	.story-byline {
-		font-size: 1em;
-	}	
 	
 	footer {
 		font-size: 1em;
@@ -629,18 +298,13 @@ h3 {
 
 @media screen and (max-width: 450px) {
 	
-	.parallax {
+	.slideshow-img {
 		height: 800px;
 	}
 	
 	.headline {
-		font-size: 2.25em;
 		margin-right: .25em;
 		margin-left: .25em;
-	}
-	
-	.subhead {
-		font-size: 1em;
 	}
 	
 	.byline {
@@ -654,42 +318,14 @@ h3 {
 		margin-left: 0.5em;
 	}
 	
-	.headshot-left {
-		width: 180px;
+	.center-photo {
+		margin-top: 4em;
+		margin-bottom: 4em;
 	}
 	
-	.headshot-right {
-		width: 180px;
-	}
-	
-	.pull-quote {
-		font-size: 2.25em;
-	}
-	
-	.pull-quote-credit {
-		line-height: 1.25em;
-		font-size: 16px;
-	}
-	
-	.read-more-container {
-		margin-right: 2em;
-		margin-left: 2em;
-	}
-	
-	h3 {
-		font-size: 1.25em;
-	}
-	
-	.story-section {
-		font-size: .75em;
-	}
-	
-	.story-headline {
-		font-size: 1.25em;
-	}
-	
-	.story-byline {
-		font-size: .75em;
+	.vertical-photo {
+		margin-top: 4em;
+		margin-bottom: 4em;
 	}
 	
 	footer {
@@ -700,16 +336,16 @@ h3 {
 
 @media screen and (max-width: 360px) {
 	
-	.parallax {
+	.slideshow-img {
 		height: 700px;
 	}
 	
-	.headline {
-		font-size: 2em;
+	.one-year {
+		font-size: 6em;
 	}
 	
-	.subhead {
-		font-size: .75em;
+	.headline {
+		font-size: 2.5em;
 	}
 	
 	.byline {
@@ -717,18 +353,9 @@ h3 {
 		margin: 5em 1em;
 	}
 	
-	.pull-quote {
-		font-size: 1.75em;
-	}
-	
-	.pull-quote-credit {
-		font-size: 14px;
-	}
-	
 	footer {
 		font-size: 0.8em;
 	}
-	
 	
 }
 
