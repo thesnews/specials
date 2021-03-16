@@ -1,7 +1,7 @@
 # last-diver-amanda-ling
 The story of MSU's last competing diver: Amanda Ling | The State News
 <br>
-March 11, 2020
+March 17, 2020
 
 ## Authors
 Story by Joe Dandron
