@@ -1,7 +1,7 @@
 # mental-health-in-media
 Mental health and culture: Breaking barriers or reinforcing stigma? | The State News
 <br>
-April 6, 2021
+April 7, 2021
 
 ## Authors
 Story by Dina Kaur
